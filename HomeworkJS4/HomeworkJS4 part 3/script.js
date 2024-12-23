@@ -15,7 +15,7 @@ function createRecipePage() {
     ingredients.push(ingredient);
   }
 
-  let recipeContainer = document.getElementById("recipe-container");
+  let recipeContainer = document.getElementById("recipe");
   let recipeTable = document.createElement("table");
   let headerRow = document.createElement("tr");
   let recipeHeaderCell = document.createElement("th");

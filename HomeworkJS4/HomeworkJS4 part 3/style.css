@@ -8,16 +8,16 @@ table {
     margin-top: 20px;
 }
 th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #362c2c;
     padding: 8px;
     text-align: left;
 }
 th {
-    background-color: #f2f2f2;
+    background-color: #be2f0087;
 }
 td {
-    background-color: #fafafa;
+    background-color: #ef96968f;
 }
-#recipe-container{
-    width: 500px;
+#recipe{
+    max-width: 500px;
 }
