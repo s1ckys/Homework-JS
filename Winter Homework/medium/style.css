@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  textarea {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.2em;
+    resize: none;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  textarea:focus {
+    outline: 2px solid #4CAF50;
+  }
+  
+  textarea[readonly] {
+    cursor: not-allowed;
+  }
+  
